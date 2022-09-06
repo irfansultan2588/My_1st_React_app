@@ -2,49 +2,91 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    background-color: black;
+}
+
+
+.main_all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.main2 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    padding: 1.5rem;
+
+    background-color: steelblue;
     color: #fff;
 }
 
 
-.maindiv {
 
-    text-align: center;
-    margin-top: 2rem;
+.img-div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-.golden {
-    color: goldenrod;
+.main-right {
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .haeding {
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+
+.haeding2 {
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 32px;
+    padding: 5rem;
+}
+
+.haeding3 {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.line {
+    width: 10%;
+    border-bottom: 3px solid black;
     display: inline-block;
 }
 
-.main2 {
-    margin-left: 4rem;
+.profile {
+    margin-left: 2rem;
+    display: inline-block;
+    padding-bottom: 8px;
 }
 
-.main_detail {
-    width: 27%;
+.main-det {
+    width: 60%;
     display: flex;
     justify-content: space-between;
 
 }
 
-.education {
-    margin-top: 30px;
-
+.color {
+    color: gray;
 }
 
-.footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.para {
-    border-top: 2px solid goldenrod;
+.lastdiv {
+    padding-bottom: 3rem;
 }
